@@ -74,3 +74,17 @@ p {
     padding: 30px;
     border-radius: 0 0 10px 10px;
 }
+
+@media (min-width: 376px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .section-1 {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .section-3 {
+        border-radius: 0 10px 10px 0;
+    }
+}
