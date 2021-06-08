@@ -1,0 +1,96 @@
+h2 {
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+}
+
+.section-1 {
+  background-color: #e38826;
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+}
+
+.section-1 button {
+  color: #e38826;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.section-1 button:active {
+  color: #f2f2f2;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+}
+
+.section-2 {
+  background-color: #006970;
+  padding: 30px;
+}
+
+.section-2 button {
+  color: #006970;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.section-2 button:active {
+  color: #f2f2f2;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+}
+
+.section-3 {
+  background-color: #004241;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+}
+
+.section-3 button {
+  color: #004241;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.section-3 button:active {
+  color: #f2f2f2;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+}
+
+@media (min-width: 376px) {
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .section-1 {
+    border-radius: 10px 0 0 10px;
+  }
+  .section-3 {
+    border-radius: 0 10px 10px 0;
+  }
+}
